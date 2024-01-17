@@ -3,6 +3,16 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-17T02:45:52.549628578Z"
+    description: Deploys pyrometer Tezos monitoring solution
+    digest: a57abf5773342421566161d9b17c094bc56436e0b1dd71ece0ab6e8364909748
+    name: pyrometer
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/pyrometer-7.0.7.tgz
+    version: 7.0.7
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-16T19:11:43.06665844Z"
     description: Deploys pyrometer Tezos monitoring solution
     digest: 81db657bdf2023516a999434215c8a8218d64db0dc3cb8c6bf9abae4c95f63c0
@@ -22,6 +32,16 @@ entries:
     - https://tacoinfra.github.io/tezos-helm-charts/pyrometer-7.0.5.tgz
     version: 7.0.5
   snapshotEngine:
+  - apiVersion: v2
+    created: "2024-01-17T02:45:52.550054858Z"
+    description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
+      Nodes can use to sync quickly.
+    digest: 387b8725e6cf3e245289e0572526d307ed5c0e96bd7967c3ff60f0f4c7f6df1e
+    name: snapshotEngine
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/snapshotEngine-7.0.7.tgz
+    version: 7.0.7
   - apiVersion: v2
     created: "2024-01-16T19:11:43.067399979Z"
     description: Produces filesystem artifacts (tarballs and snapshots) that Tezos
@@ -43,6 +63,19 @@ entries:
     - https://tacoinfra.github.io/tezos-helm-charts/snapshotEngine-7.0.5.tgz
     version: 7.0.5
   tezos-chain:
+  - apiVersion: v2
+    created: "2024-01-17T02:45:52.551322516Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: 0cc9b30f89d684b39092e5c8eebef4a193f4d7500ded02bcd2ba50aa54bb2aeb
+    home: https://github.com/tacoinfra/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-chain-7.0.7.tgz
+    version: 7.0.7
   - apiVersion: v2
     created: "2024-01-16T19:11:43.069127383Z"
     description: A Helm chart for Tezos nodes on Kubernetes
@@ -72,6 +105,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2024-01-17T02:45:52.55176193Z"
+    description: Faucet for tezos
+    digest: 7863f346abdc0a4620735969f3a857ae10e55a0104477fcbcb2f1c4aeaee51ed
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-faucet-7.0.7.tgz
+    version: 7.0.7
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2024-01-16T19:11:43.069532367Z"
     description: Faucet for tezos
     digest: 7d376db1424b545e2ece6cc6e77a4d005071b53367991f36ed33993c98129108
@@ -91,6 +134,16 @@ entries:
     - https://tacoinfra.github.io/tezos-helm-charts/tezos-faucet-7.0.5.tgz
     version: 7.0.5
   tezos-proto-cruncher:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-17T02:45:52.552032538Z"
+    description: A Helm chart for Kubernetes
+    digest: 1a79d09c8b46c35cfdecff89efe5716480d1feb3e2463f72144d80d4502d1025
+    name: tezos-proto-cruncher
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-proto-cruncher-7.0.7.tgz
+    version: 7.0.7
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-01-16T19:11:43.069804683Z"
@@ -114,6 +167,16 @@ entries:
   tezos-reward-distributor:
   - apiVersion: v2
     appVersion: "10.0"
+    created: "2024-01-17T02:45:52.552354953Z"
+    description: A chart for tezos-reward-distributor
+    digest: a8b69ccc425a316ad3e0079a13f207205cf36cafe674201fafcdfdcbdf7a2c6d
+    name: tezos-reward-distributor
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-reward-distributor-7.0.7.tgz
+    version: 7.0.7
+  - apiVersion: v2
+    appVersion: "10.0"
     created: "2024-01-16T19:11:43.070143323Z"
     description: A chart for tezos-reward-distributor
     digest: 17bba69eaa30c4e0cc3f5775560cea80ff43c585db57fc0dbe2b67fc8f167a95
@@ -135,6 +198,16 @@ entries:
   tezos-signer-forwarder:
   - apiVersion: v2
     appVersion: "10.0"
+    created: "2024-01-17T02:45:52.552719036Z"
+    description: A chart for tezos-signer-forwarder
+    digest: 7879845d31663a9e7e3493bf7a9f92abd5bf7190f10efc30f326807bba726ecf
+    name: tezos-signer-forwarder
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-signer-forwarder-7.0.7.tgz
+    version: 7.0.7
+  - apiVersion: v2
+    appVersion: "10.0"
     created: "2024-01-16T19:11:43.070536344Z"
     description: A chart for tezos-signer-forwarder
     digest: 934748a2bf2edbb990251a4f6bc0ad1970a65c70dae584fd941be9e427c9f2a1
@@ -153,4 +226,4 @@ entries:
     urls:
     - https://tacoinfra.github.io/tezos-helm-charts/tezos-signer-forwarder-7.0.5.tgz
     version: 7.0.5
-generated: "2024-01-16T19:11:43.06619623Z"
+generated: "2024-01-17T02:45:52.54915547Z"
