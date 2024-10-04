@@ -3,6 +3,16 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-10-04T17:42:44.80413812Z"
+    description: Deploys pyrometer Tezos monitoring solution
+    digest: 4aa10fd0459af7c7d9274065f201fdfede702d1aeaac72b4eb7e0b6e09a39297
+    name: pyrometer
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/pyrometer-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-16T16:30:41.371216299Z"
     description: Deploys pyrometer Tezos monitoring solution
     digest: d137d496ce142e18c039c022d3a9f5d725894244ef4b2cbb094090d543c6fa5d
@@ -164,6 +174,19 @@ entries:
     version: 7.0.5
   tezos-chain:
   - apiVersion: v2
+    created: "2024-10-04T17:42:44.805674625Z"
+    description: A Helm chart for Tezos nodes on Kubernetes
+    digest: abcf19f6cf347cf786f18641d44525e64c1e7954832d66a960dfada8257b7d6c
+    home: https://github.com/tacoinfra/tezos-k8s
+    keywords:
+    - tezos
+    - blockchain
+    name: tezos-chain
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-chain-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
     created: "2024-02-16T16:30:41.373181949Z"
     description: A Helm chart for Tezos nodes on Kubernetes
     digest: 0093c3099d7515867d2f1c6d100e674dd6932dc4df01c2bdca941e27fb7d1cb4
@@ -270,6 +293,16 @@ entries:
   tezos-faucet:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2024-10-04T17:42:44.806108878Z"
+    description: Faucet for tezos
+    digest: b8baf9b4c0b1147782754e334bf8c12a968b5adbbf95b4cc0f4169f7c186e402
+    name: tezos-faucet
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-faucet-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2024-02-16T16:30:41.373609038Z"
     description: Faucet for tezos
     digest: 84a1e51696368d7f99d25df9a20daba724761cf78509d807884d04bc436f9795
@@ -349,6 +382,16 @@ entries:
     - https://tacoinfra.github.io/tezos-helm-charts/tezos-faucet-7.0.5.tgz
     version: 7.0.5
   tezos-proto-cruncher:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-04T17:42:44.806418007Z"
+    description: A Helm chart for Kubernetes
+    digest: 7961edbcb0f2400c2c8c6a6c2c409d1e9c666903014995304687cc46fcee477e
+    name: tezos-proto-cruncher
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-proto-cruncher-7.2.0.tgz
+    version: 7.2.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-02-16T16:30:41.373944987Z"
@@ -432,6 +475,16 @@ entries:
   tezos-reward-distributor:
   - apiVersion: v2
     appVersion: "10.0"
+    created: "2024-10-04T17:42:44.806808667Z"
+    description: A chart for tezos-reward-distributor
+    digest: ef7da26233e1c5353657df477da13f57533d2a3d020633d0d37816ea449b4abf
+    name: tezos-reward-distributor
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-reward-distributor-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
+    appVersion: "10.0"
     created: "2024-02-16T16:30:41.374377607Z"
     description: A chart for tezos-reward-distributor
     digest: 29a70ec09b9e6e394c4f0855d1ca03b40160d69d8d0aeb1e864e369ed30e8086
@@ -513,6 +566,16 @@ entries:
   tezos-signer-forwarder:
   - apiVersion: v2
     appVersion: "10.0"
+    created: "2024-10-04T17:42:44.807342085Z"
+    description: A chart for tezos-signer-forwarder
+    digest: e22dcad18d568318131f68a7536947f8e0250ad9d2136c8aef051607c7f4022d
+    name: tezos-signer-forwarder
+    type: application
+    urls:
+    - https://tacoinfra.github.io/tezos-helm-charts/tezos-signer-forwarder-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
+    appVersion: "10.0"
     created: "2024-02-16T16:30:41.374953776Z"
     description: A chart for tezos-signer-forwarder
     digest: d21482b564b45890d9ddff63aed6ad4e4145915bd67abd0a05e74120c878662a
@@ -591,4 +654,4 @@ entries:
     urls:
     - https://tacoinfra.github.io/tezos-helm-charts/tezos-signer-forwarder-7.0.5.tgz
     version: 7.0.5
-generated: "2024-02-16T16:30:41.370609072Z"
+generated: "2024-10-04T17:42:44.803638486Z"
